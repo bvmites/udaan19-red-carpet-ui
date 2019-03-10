@@ -47,6 +47,7 @@
         this.$store.commit('storePass', this.$refs.passInput.localValue);
       },
       login() {
+        console.log(this.name, this.password)
         this.$http.post(baseUrl + "user/login", {
           username: this.name,
           password: this.password
