@@ -1,0 +1,19 @@
+.spacer {
+  margin-top: 20px;
+}
+.instructions {
+  margin-top: 40px;
+  color: #9D00FF;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+.instructionList {
+  font-size: 0.9rem;
+  text-align: left;
+  list-style-type: square;
+}
+
+.hide {
+  display: none
+}

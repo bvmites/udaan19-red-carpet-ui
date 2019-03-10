@@ -1,0 +1,105 @@
+svg{
+  width: 512px;
+  height: 512px;
+}
+
+.udaan1, .udaan2{
+  stroke-dasharray: 800;
+  stroke-dashoffset: 0;
+}
+
+.udaan1 {
+  animation: dash-udaan1-wide 5s linear forwards;
+}
+
+.udaan2 {
+  animation: dash-udaan2-wide 5s linear forwards;
+}
+.red-carpet{
+  stroke-dasharray: 400;
+  stroke-dashoffset: 0;
+  animation: dash-wide 5s linear forwards;
+}
+
+.sign .btn{
+  height: 100px;
+  width: 200px;
+  background: #222222;
+  color: rgb(152,0,0);
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-family: Laksaman;
+  border: 2px solid rgb(152,0,0);
+  border-radius: 15px;
+  font-weight: bold;
+  box-shadow: 0 0 2px 3px rgb(152,0,0);
+  opacity: 0;
+  animation: fadeIn 500ms linear 3s, upper 4s linear 3500ms infinite;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0 }
+  100% { opacity: 0.6 }
+}
+@keyframes upper {
+  0%,19.999%,22%,62.999%,64%, 64.999%,70%,100% {
+    opacity:.99; text-shadow: 0 0 80px red,0 0 30px #008000,0 0 6px #0000ff;
+  }
+  20%,21.999%,63%,63.999%,65%,69.999% {
+    opacity:0.4; text-shadow: none;
+  }
+}
+
+@keyframes dash-wide {
+  0% { stroke-dashoffset: 400 }
+  100% { stroke-dashoffset: 0;  fill: rgb(152,0,0); }
+}
+@keyframes dash-udaan1-wide{
+  0% { stroke-dashoffset: 800 }
+  100% { stroke-dashoffset: 0; }
+}
+
+@keyframes dash-udaan2-wide{
+  0% { stroke-dashoffset: 800 }
+  100% { stroke-dashoffset: 0; }
+}
+
+@keyframes dash {
+  0% { stroke-dashoffset: 200 }
+  100% { stroke-dashoffset: 0; fill: rgb(152,0,0); }
+}
+@keyframes dash-udaan1 {
+  0% { stroke-dashoffset: 400 }
+  100% { stroke-dashoffset: 0; }
+}
+
+@keyframes dash-udaan2 {
+  0% { stroke-dashoffset: 400 }
+  100% { stroke-dashoffset: 0;}
+}
+
+@media screen and (min-width:320px) and (max-width: 520px){
+  svg{
+    width: 300px;
+    height: 300px;
+  }
+
+  .udaan1, .udaan2{
+    stroke-dasharray: 400;
+    stroke-dashoffset: 0;
+  }
+
+  .udaan1 {
+    animation: dash-udaan1 5s linear forwards;
+  }
+
+  .udaan2 {
+    animation: dash-udaan2 5s linear forwards;
+  }
+  .red-carpet{
+    stroke-dasharray: 200;
+    stroke-dashoffset: 0;
+    animation: dash 5s linear forwards;
+  }
+
+}
