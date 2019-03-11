@@ -1,5 +1,5 @@
 {
-  "categories" : [
+	"categories" : [
     {
       "_id": "5c8570c7b6ee153a2c4213bd",
       "nominees": [
@@ -21,7 +21,7 @@
         {
           "_id": "5c85803100725218ec5d6484",
           "name": "Vedang Tandel",
-          "imgUrl": ""
+          "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan19-red-carpet-ui/master/src/assets/vt.png"
         }
       ],
       "title": "Artist Of The Year (Male)"
@@ -89,7 +89,7 @@
         {
           "_id": "5c85832700725218ec5d648a",
           "name": "Yashin Pathan",
-          "imgUrl": ""
+          "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan19-red-carpet-ui/master/src/assets/yasin.png"
         },
         {
           "_id": "5c85832700725218ec5d648b",
@@ -167,7 +167,7 @@
         {
           "_id": "5c85840e00725218ec5d648e",
           "name": "Poonam Lalwani",
-          "imgUrl": ""
+          "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan19-red-carpet-ui/master/src/assets/poonam.png"
         },
         {
           "_id": "5c85840e00725218ec5d648f",
@@ -224,7 +224,7 @@
         {
           "_id": "5c85851200725218ec5d6493",
           "name": "Devansh Parikh",
-          "imgUrl": ""
+          "imgUrl": "https://raw.githubusercontent.com/bvmites/udaan19-red-carpet-ui/master/src/assets/devansh.png"
         },
         {
           "_id": "5c85851200725218ec5d6494",

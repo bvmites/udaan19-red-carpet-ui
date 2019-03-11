@@ -8,7 +8,8 @@
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
-    "serve": "http-server dist"
+    "serve": "http-server dist",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
@@ -51,6 +52,7 @@
     "shelljs": "^0.7.6",
     "style-loader": "^0.20.2",
     "url-loader": "^1.1.2",
+    "vue-gh-pages": "^1.19.0",
     "vue-loader": "^13.0.4",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.4.2",
